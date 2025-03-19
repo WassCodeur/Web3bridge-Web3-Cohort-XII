@@ -81,7 +81,8 @@ function App() {
       const [blockNumber2, returnDecimalsDatas] = await multicallContract.aggregate([
         token0DecimalsCall, token1DecimalsCall
       ]);
-
+      console.log(blockNumber)
+      console.log(blockNumber2)
 
       const token0Decimals = token0Contract.interface.decodeFunctionResult('decimals', returnDecimalsDatas[0])[0];
       const token1Decimals = token1Contract.interface.decodeFunctionResult('decimals', returnDecimalsDatas[1])[0];
