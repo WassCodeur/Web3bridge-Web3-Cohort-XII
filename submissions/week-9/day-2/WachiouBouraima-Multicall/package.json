@@ -12,6 +12,7 @@
   "dependencies": {
     "@ethersproject/providers": "^5.8.0",
     "ethersjs": "^0.0.1-security",
+    "ethers": "^6.13.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
